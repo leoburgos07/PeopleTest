@@ -1,5 +1,6 @@
 
 <h1>TEST PEOPLE AWARDS - LEONARDO DANIEL BURGOS HERNÁNDEZ</h1>
+
 ## Funcionamiento
 
 El proyecto consta de asignar unos premios predeterminados a nuevas personas, una vez asignado el premio a una persona esa persona se guarda en la base de datos y se disminuye la cantidad del premio.
@@ -7,6 +8,10 @@ El proyecto consta de asignar unos premios predeterminados a nuevas personas, un
 ## Paginación y ordenamiento
 
 La paginación y el ordenamiento se hizo a nivel de backend desde la consulta, se puede consultar en "AwardController::index" y "BenefitController::index"
+
+## Middlewares
+
+Con respecto a los middlewares, se creó uno donde solo el administrador puede listar los premios disponibles y a su vez puede asignarlos a una persona.
 
 ## Comandos
 
