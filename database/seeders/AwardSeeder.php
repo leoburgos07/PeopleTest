@@ -28,7 +28,7 @@ class AwardSeeder extends Seeder
         ]);
         Award::create([
             'name' => 'Bicicleta',
-            'quantity' => 12,
+            'quantity' => 2,
         ]);
         Award::create([
             'name' => 'Nevera',
